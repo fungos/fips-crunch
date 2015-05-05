@@ -1,0 +1,19 @@
+# fips-crunch
+---
+
+run:
+    crunch:
+        cwd: .
+    example1:
+        cwd: .
+    example2:
+        cwd: .
+    example3:
+        cwd: .
+
+exports:
+    header-dirs:
+        - crunch/crnlib
+        - crunch/inc
+    modules:
+        crnlib: .
